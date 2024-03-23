@@ -320,6 +320,7 @@ canvas {
    right: -20%;
    top: 80%;
    opacity: 50%;
+   z-index: -1;
 }
 .problems-right-img circle{
    animation: bg 10s infinite linear;
@@ -803,10 +804,6 @@ line heights
    .addressing{
       font-size: 14px;
    }
-   /* .ready{
-      font-size: 20px;
-      line-height: 30px
-   } */
    .face-icon{
       left: 40%;
    }
@@ -830,6 +827,7 @@ line heights
    }
    .baner-text{
       font-size: 15px;
+      line-height: 25px;
    }
    .demo-btn{
       font-size: 14px;
@@ -874,6 +872,7 @@ line heights
    }
    .baner-text{
       font-size: 13px;
+      line-height: 25px;
    }
    .demo-btn{
       font-size: 10px;
@@ -889,10 +888,6 @@ line heights
    }
    .addressing{
       font-size: 14px;
-   }
-   .ready{
-      font-size: 27px;
-      line-height: 50px
    }
 
    .curv-img{
@@ -933,10 +928,6 @@ line heights
    .addressing{
       font-size: 20px;
    }
-   .ready{
-      font-size: 35px;
-      line-height: 50px
-   }
    .curv-img{
       margin-top: -55px;
       left: 313px;
@@ -974,10 +965,6 @@ line heights
    }
    .addressing{
       font-size: 20px;
-   }
-   .ready{
-      font-size: 47px;
-      line-height: 75px
    }
    .card-heading{
       font-size: 32px;
