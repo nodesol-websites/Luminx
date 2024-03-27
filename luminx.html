@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="apexcharts/apexcharts.min.js"></script>
-    <title>Luminx</title>
+    <title>LuminX</title>
 </head>
 <body>
    <!--------------banner section start--------------->
@@ -20,16 +20,27 @@
       </video>
     </div>
     <div class="gradient-bg  justify-content-center  position-absolute top-0 "></div>
-    <img width="60%" class="position-absolute banner-side-img " src="images/Light.png" alt="">
+    <svg class="position-absolute banner-side-img" width="1267" height="1672" viewBox="0 0 1467 1872" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g style="mix-blend-mode:screen" filter="url(#filter0_f_28_245)">
+      <ellipse cx="1258.5" cy="612.5" rx="459.5" ry="458.5" transform="rotate(-90 1258.5 612.5)" fill="#000AFF" fill-opacity="0.6"/>
+      </g>
+      <defs>
+      <filter id="filter0_f_28_245" x="0" y="-647" width="2517" height="2519" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="400" result="effect1_foregroundBlur_28_245"/>
+      </filter>
+      </defs>
+    </svg>      
     <div class="row m-0 p-0 justify-content-center position-absolute heading-section w-100">
         <div class="col-12 col-md-10 text-center  ">
           <p class="mb-0 fw-bold font-size-56 heading text-color-F7D7FF akira-font">Unleash Your Potential</p>
           <div class="row justify-content-center pt-2">
             <div class="col-10 col-md-8">
-            <p class=" font-size-28 mb-0 line-height-38 text-white baner-text source-sans-font">Discover our personalized, innovative creative solutions, meticulously designed for your needs</p>
+            <p class=" font-size-28 mb-0 line-height-38 text-white para source-sans-font">Discover our personalized, innovative creative solutions, meticulously designed for your needs</p>
           </div>
           <div class="col-12 py-lg-5 py-sm-4">
-            <button class="bg-primary border rounded-pill fw-semibold font-size-20 text-white mx-2 lh-lg px-4 py-2 btn-bg-color demo-btn" >Schedule a Demo</button>
+            <button class="bg-primary border rounded-pill fw-semibold font-size-20 source-sans-font mx-2 lh-lg px-4 py-2 btn-bg-color demo-btn"><a class="text-decoration-none text-white" href="https://calendly.com/d/33y-h9r-kq3/the-x-team">Schedule a Demo</a></button>
           </div>
           </div>
         </div>
@@ -38,26 +49,22 @@
    <!--------------banner section end--------------->
 
   <!--------------navbar section start--------------->
-  <div class="container-fluid p-0 position-absolute top-0">
+  <div class="container-fluid p-0 position-absolute top-0 ">
     <div>
-        <nav class="navbar navbar-expand-lg navbar-bg-color">
-            <div class="container">
-              <a class="navbar-brand poppin-regular "><p class="mb-0 font-size-36 fw-semibold text-white luminx">Luminx</p></a>
-              <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars text-white fs-3"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ">
-                  <li class="nav-item">
-                    <a class="nav-link active home" aria-current="page" href="#"><p class="mb-0 px-3 space-grotesk text-white font-weight-500 fs-5">Home</p></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#faqs"><p class="mb-0 px-3 space-grotesk text-white font-weight-500 fs-5">FAQs</p></a>
-                  </li>
-                </ul>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-bg-color fixed-top mx-auto ">
+          <div class="container">
+            <a class="navbar-brand poppin-regular "><p class="mb-0 font-size-36 fw-semibold text-white luminx">LuminX</p></a>
+            <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars text-white fs-3"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <div id="myDIV">
+                <button class="btn active border-0 rounded-pill px-3  me-3"><a href="#" class="text-decoration-none space-grotesk  text-white font-weight-500 font-size-20">Home</a></button> <br class="d-sm-block d-md-block d-lg-none d-xl-none">
+                <button class="btn px-3 border-0 rounded-pill space-grotesk text-white font-weight-500 fs-5 my-2 my-lg-0"><a href="#faqs" class="text-decoration-none space-grotesk  text-white font-weight-500 font-size-20">FAQs</a></button>
               </div>
             </div>
-        </nav>
+          </div>
+      </nav>
     </div>
   </div>
   <!--------------navbar section end--------------->
@@ -88,7 +95,7 @@
           <div class="row justify-content-center py-5 ">
             <div class="col-12">
               <div class="">
-                <p class="mb-0 text-white font-size-24 text-center space-grotesk-font line-height-38 addressing">ADDRESSING REAL CHALLENGES</p>
+                <p class="mb-0 text-white font-size-24 text-center space-grotesk-font line-height-38 para">ADDRESSING REAL CHALLENGES</p>
              </div>
             </div>
             <div class="col-12 col-md-12 text-center">
@@ -102,7 +109,7 @@
         <!----------------------ANIMATION SECTION START-------------------------->
         <div class="px-lg-5 px-md-5 px-4 mt-4">
           <div class="box-border2">
-          <div class="background px-2" id="container">
+          <div class="tab px-2" id="container">
             <div class="px-lg-3 gx-5">
               <div class="row px-lg-3 px-md-3  py-3 justify-content-center">
                 <!-----------------ANIMATION SECTION FIRST FOURE CARDS START------------------>
@@ -196,7 +203,7 @@
                     <div class="col-12 position-relative">
                       <canvas id="canvas" width="180" height="180"></canvas>
                       <div class="position-absolute face-icon">
-                        <i class="fa-sharp fa-regular fa-face-smile text-white bg-color-0075FF p-3 rounded-5"></i>
+                        <i class="fa-sharp fa-regular fa-face-smile text-white bg-color-0075FF p-3 rounded-5 position-fix"></i>
                       </div>
                       <div class="d-flex justify-content-center">
                         <div  class="row meter bg-color-060B28 py-1 rounded-4">
@@ -270,7 +277,7 @@
                   <div class="bg-color-060B26 rounded-4 px-3 py-3 ">
                     <div id="Bar" class=""></div>
                     <div class="font-size-18 syne-font fw-bold text-white">Active Users <span class="font-size-14 font-weight-400 syne-font ps-3 text-color-A0AEC0"><span class="text-color-01B574">(+23)</span> than last week</span></div>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center py-2">
                       <div class="col-6 col-md-6 col-lg-6 col-xl-3 col-xxl-3 px-md-4">
                         <div class="row">
                           <div class=" col-5">
@@ -360,7 +367,7 @@
             <!-- Innovation circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-3 my-lg-3 m-xl-0 m d-flex justify-content-center position-relative">
               <div class="d-none d-md-block d-lg-block d-xl-block">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                 <div class="pt-4">
@@ -384,7 +391,7 @@
             <!-- Integrity circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-3 my-lg-3 m-xl-0 d-flex justify-content-center position-relative">
               <div class="d-none  d-xl-block">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                 <div class="pt-4">
@@ -402,7 +409,7 @@
             <!-- Excellence circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-5 my-lg-5 m-xl-0 d-flex justify-content-center position-relative">
               <div class="d-none d-md-block d-lg-block d-xl-block ">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                 <div class="pt-4">
@@ -432,11 +439,11 @@
             <!----------------------OUR CORE VALUES SECTION FIRST ROW OF CIRCLE DIV END------------------------>
 
             <!----------------------OUR CORE VALUES SECTION SECOND ROW OF CIRCLE DIV START------------------------>
-          <div class="row gy-5 my-5 py-5">
+          <div class="row gy-5 my-lg-5 my-md-5 py-5">
             <!-- Cusromer-Centriccity circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-3 my-lg-3 m-xl-0 m d-flex justify-content-center position-relative">
               <div class="d-none d-md-block d-lg-block d-xl-block">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                 <div class="pt-4">
@@ -464,7 +471,7 @@
             <!-- Adaptablity circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-3 my-lg-3 m-xl-0 d-flex justify-content-center position-relative">
               <div class="d-none  d-xl-block">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                <div class="pt-4">
@@ -487,7 +494,7 @@
             <!-- Saclability circle -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 my-md-5 my-lg-5 m-xl-0 d-flex justify-content-center position-relative">
               <div class="d-none d-md-block d-lg-block d-xl-block ">
-                <img class="curv-img position-absolute" src="images/Group 47392.png" alt="">
+                <img class="curv-img position-absolute" src="images/curv.png" alt="">
               </div>
               <div class=" roundDiv-bg text-white text-center my-md-3 my-lg-0 m-xl-0"  >
                 <div class="pt-4">
@@ -556,18 +563,18 @@
             <h1 class="my-0  font-size-56 fw-bold akira-font text-color-F7D7FF text-center pt-5 heading">You Started A Business </h1>
             <h1 class="my-0  font-size-56 fw-bold akira-font text-color-F7D7FF text-center heading">To Get More Freedom</h1>
            </div>
-            <div class="row justify-content-center py-lg-4 py-sm-2 py-md-3">
+            <div class="row justify-content-center py-lg-4 py-2 py-md-3">
               <div class="col-10 col-md-8 text-center">
-                <div class="font-size-28 mb-0 line-height-38 text-white baner-text syne-font">Only to find yourself in a 9-to-9 grind, consuming your time, finances, and energy, pulling you away from what truly matters</div>
+                <div class="font-size-28 mb-0 line-height-38 text-white para syne-font">Only to find yourself in a 9-to-9 grind, consuming your time, finances, and energy, pulling you away from what truly matters</div>
               </div>
             </div>
             <!-- SOLVE PROBLEMS SECTION -->
             <div class="row justify-content-center py-5 mt-lg-5 problems ">
-              <div class="col-sm-12 col-md-6 col-lg-6  pt-md-5 ">
+              <div class="col-sm-12 col-md-6 col-lg-6 mt-5 mt-lg-0 mt-md-0 pt-md-5 ">
                 <h1 class=" my-0 font-size-40 fw-bold akira-font heading text-color-F7D7FF pt-md-5 ">Let US Solve <br class="d-none d-lg-block"> The Problems </h1>
               </div>
               <div class="col-10 col-md-5 col-lg-6 ps-md-5  pt-md-5">
-                <p class="mb-0 font-size-28 line-height-38 baner-text text-white syne-fonts mt-md-5 pt-md-1 ">Here's how we streamline your business, allowing you to focus on what truly matters once and for all</p>
+                <p class="mb-0 font-size-28 line-height-38 para text-white syne-fonts mt-md-5 pt-2 pt-md-1 pt-lg-0">Here's how we streamline your business, allowing you to focus on what truly matters once and for all</p>
               </div>
             </div>
             <div class="row justify-content-center py-md-5 my-1 my-md-5  position-relative">
@@ -918,10 +925,10 @@
               <h1 class="my-0  font-size-56 fw-bold akira-font text-color-F7D7FF text-center heading">Consultation Today!</h1>
               <div class="row justify-content-center py-lg-4 py-sm-2 py-md-3">
                 <div class="col-10 col-md-7 text-center">
-                  <div class="font-size-24 mb-0 line-height-38 text-white baner-text syne-font">Schedule a call with us to get a free consultation and a game-plan on how to increase your profits by 2X.</div>
+                  <div class="font-size-24 mb-0 line-height-38 text-white para syne-font pt-2 pt-md-0 pt-lg-0">Schedule a call with us to get a free consultation and a game-plan on how to increase your profits by 2X.</div>
                 </div>
-                <div class="text-center mt-4 py-3">
-                  <button class="bg-primary border rounded-pill fw-semibold font-size-20 text-white mx-2 lh-lg px-4 py-2 btn-bg-color demo-btn" >Schedule a Demo</button>
+                <div class="text-center mt-md-4 mt-lg-4 py-3">
+                  <button class="border-0 rounded-pill fw-semibold font-size-20 source-sans-font mx-2 lh-lg px-4 py-2 btn-bg-color demo-btn" ><a class="text-decoration-none text-white" href="https://calendly.com/d/33y-h9r-kq3/the-x-team">Schedule now</a></button>
                 </div>
               </div>
             </div>
@@ -939,8 +946,8 @@
 
           <!----------------------FREQUENTLYY ASKED QUESTIONS SECTION START-------------------------->
           <div class="container" id="faqs">
-            <div>
-              <h1 class="my-0  font-size-36 line-height-50 fw-bold akira-font text-color-F7D7FF text-center heading">Frequently Asked Questions</h1>
+            <div class="pt-lg-5">
+              <h1 class="my-0 pt-lg-5 font-size-36 line-height-50 fw-bold akira-font text-color-F7D7FF text-center heading">Frequently Asked Questions</h1>
             </div>
             <div class="row py-5">
               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -1102,7 +1109,7 @@
 
             <!--------------------FOOTER START------------------------->
             <div class="row pt-5 footer">
-              <div class="col-12 col-md-4 pt-5">
+              <div class="col-12 col-md-7 pt-5">
                 <div class="font-size-24 text-white fw-semibold line-height-28 poppin-regular-font">LuminX</div>
                 <div class="pt-4">
                   <i class="fa-brands fa-instagram text-white bg-822AAB p-2 rounded-5"></i>
@@ -1111,34 +1118,28 @@
                   <i class="fa-brands fa-linkedin-in text-white bg-822AAB p-2 rounded-5 ms-2"></i>
                 </div>
               </div>
-              <div class="col-12 col-md-8 col-lg-8 col-xl-5 pt-5">
-                <div class=""><a class="text-decoration-none font-size-20 text-white fw-semibold line-height-28 poppin-regular-font" href="#">ONLINE SERVICES AGREEMENT</a></div>
-                <div class="font-size-14 font-weight-400 line-height-20 text-white py-4">
-                  This Online Services Agreement (“Agreement”) is entered into by and between LuminX, LLC (“Company”) and the entity signing an Order Form for the Services (“Customer”) (each referred to as a “Party” and collectively as the “Parties”). This Agreement consists of the terms and conditions set forth below and any exhibits referenced in this Agreement, and any Order Forms that reference this Agreement.
-                </div>
-                <div class="font-size-14 font-weight-400 line-height-20 text-white">
-                  This Agreement consists of the terms and conditions set forth below and any exhibits referenced in this Agreement, and any Order Forms that reference this Agreement.
-                </div>
-                <button class="bg-primary border-0 rounded-pill fw-semibold font-size-20 text-white mt-4 lh-lg px-4 py-2 btn-bg-color demo-btn" >Read More</button>
-              </div>
-              <div class="col-12 col-md-3 pt-5 ps-5 d-none d-xl-block ">
+              <div class="col-12 col-md-5 pt-5 ps-5 d-none d-xl-block ">
                <div class="ps-5">
-                <div class="ps-5">
-                  <div class="font-size-20 fw-semibold line-height-20 text-white">Company</div>
-                  <li class="list-style text-white font-size-14 font-weight-400 pt-4 pb-2">Home</li>
-                  <li class="list-style text-white font-size-14 font-weight-400 py-2">FAQs</li>
-                  <li class="list-style text-white font-size-14 font-weight-400 py-2">Service Agreement</li>
+                <div class="">
+                  <div class="font-size-20 fw-semibold line-height-20 text-white poppin-regular-font">Company</div>
+                  <li class="list-style text-white font-size-14 syne-font font-weight-400 pt-4 pb-2">Home</li>
+                  <li class="list-style text-white font-size-14 syne-font font-weight-400 py-2">FAQs</li>
+                  <li class="list-style text-white font-size-14 syne-font font-weight-400 py-2">Service Agreement</li>
+                  <button class="bg-primary border-0 rounded-pill fw-semibold font-size-20 source-sans-font mt-4 lh-lg px-4 py-2 btn-bg-color demo-btn" ><a class="text-decoration-none text-white" href="services.html">Online service agreement</a></button>
                 </div>
                </div>
               </div>
-              <div class="col-12 col-md-3  d-sm-block d-xl-none">
+              <div class="col-12 col-md-5  d-sm-block d-xl-none">
                 <div class="py-3">
-                  <div class="font-size-24 fw-semibold line-height-20 text-white pt-2">Company</div>
-                 <div class=" d-flex pt-2 pe-3">
-                   <li class="list-style text-white font-size-16 font-weight-400 pe-2">Home</li>
-                   <li class="list-style text-white font-size-16 font-weight-400 px-2">FAQs</li>
-                   <li class="list-style text-white font-size-16 font-weight-400 px-2">Service Agreement</li>
+                  <div class="font-size-24 fw-semibold line-height-20 text-white pt-2 poppin-regular-font">Company</div>
+                 <div class=" d-flex pt-2 ">
+                   <li class="list-style text-white font-size-16 syne-font font-weight-400 pe-2">Home</li>
+                   <li class="list-style text-white font-size-16 syne-font font-weight-400 px-2">FAQs</li>
+                   <li class="list-style text-white font-size-16 syne-font font-weight-400 px-2">Service Agreement</li>
                  </div>
+                 <div>
+                    <button class="bg-primary border-0 rounded-pill fw-semibold font-size-20 mt-4 lh-lg px-4 py-2 btn-bg-color demo-btn" ><a class="text-decoration-none text-white" href="services.html">Online service agreement</a></button>
+                  </div>
                 </div>  
                </div>
             </div>
@@ -1192,7 +1193,7 @@
             </svg>
           </div>
       </div>
-      <div class="text-white font-size-16 fw-semibold line-height-34 text-center copyright py-2">
+      <div class="text-white font-size-16 syne-font fw-semibold line-height-34 text-center copyright py-2">
         Copyright Reserved 2024 LuminX
       </div>
     </div>
@@ -1236,6 +1237,7 @@
 </style>
 </html>
 <script>
+  // script for satisfaction circle bars
   const container = document.getElementById('container');
         const canvas = document.getElementById('canvas');
         const result = document.getElementById('result');
@@ -1294,7 +1296,6 @@
 
             requestAnimationFrame(drawCircularBar);
         }
-
         // Trigger the animation on page load
         drawCircularBar();
 
@@ -1303,12 +1304,11 @@
             increasing = true;
             drawCircularBar();
         });
-
         container.addEventListener('mouseleave', () => {
             increasing = false;
         });
 
-
+        // script for refferal taracking circle bar
         const customContainer = document.getElementById('container');
         const customCanvas = document.getElementById('customCanvas');
         const customResult = document.getElementById('customResult');
@@ -1332,7 +1332,6 @@
             customCtx.lineWidth = customLineWidth;
             customCtx.lineCap = 'round'; // Rounded corners
             customCtx.stroke();
-
             // Create a linear gradient for the blue bar
             const customGradient = customCtx.createLinearGradient(customCenterX - customRadius, customCenterY, customCenterX + customRadius, customCenterY);
             customGradient.addColorStop(1, '#060B28'); // Start color
@@ -1364,25 +1363,22 @@
 
             requestAnimationFrame(drawCustomCircularBar);
         }
-
         // Trigger the animation on page load
         drawCustomCircularBar();
-
         customContainer.addEventListener('mouseenter', () => {
             customAngle = 0; // Reset the angle to 0
             customIncreasing = true;
             drawCustomCircularBar();
         });
-
         customContainer.addEventListener('mouseleave', () => {
             customIncreasing = false;
         });
 
-
+        /*script for area graph*/
         var options = {
         chart: {
           type: 'area',
-          height:'245px',
+          height:'276px',
           width:'100%'
         },
         series: [{
@@ -1415,11 +1411,10 @@
       },
       colors: ['#632CFF', '#BB2CFF', '#562CFF'],
       }
-
       var chart = new ApexCharts(document.querySelector("#chart"), options);
-
       chart.render();
 
+      /* script for bar graph*/
       var options = {
         series: [{
           name: 'Net Profit',
@@ -1427,8 +1422,7 @@
         }, ],
         chart: {
           type: 'bar',
-          height: 180,
-          // width: 400
+          height: 196,
         },
         plotOptions: {
           bar: {
@@ -1466,54 +1460,59 @@
           }
         }
         };
-
       var chart = new ApexCharts(document.querySelector("#Bar"), options);
-
       chart.render();
 
+      /*script for FAQs accordian*/
       document.addEventListener('DOMContentLoaded', function () {
       const accordionButtons = document.querySelectorAll('.accordion-button');
-  
       accordionButtons.forEach(function (button) {
         const icon = button.querySelector('i');
-        // Set initial background color to blue
+        // Set initial background color 
         icon.style.backgroundColor = 'white';
-  
         button.addEventListener('click', function () {
           const collapse = button.closest('.accordion-item').querySelector('.accordion-collapse');
-          if (!collapse.classList.contains('show')) {
-            const allCollapse = document.querySelectorAll('.accordion-collapse.show');
-            allCollapse.forEach(function (item) {
-              const bsCollapse = new bootstrap.Collapse(item);
-              bsCollapse.hide();
-              const btn = item.closest('.accordion-item').querySelector('.accordion-button');
-              btn.querySelector('i').classList.remove('fa-minus');
-              btn.querySelector('i').classList.add('fa-plus');
-              btn.querySelector('i').style.removeProperty('background-image');
-              item.parentElement.style.removeProperty('box-shadow');
-              item.parentElement.style.removeProperty('border-image-source');
-            });
-
-            const bsCollapse = new bootstrap.Collapse(collapse);
-            bsCollapse.show();
-  
+          collapse.addEventListener('shown.bs.collapse', function (event) {
             icon.classList.remove('fa-plus');
             icon.classList.add('fa-minus');
-            icon.style.backgroundImage='linear-gradient(134.53deg, #7900F2 30.99%, #4627FF 74.44%)'; 
+            icon.style.backgroundImage='linear-gradient(134.53deg, #7900F2 30.99%, #4627FF 74.44%)';
             collapse.parentElement.style.boxShadow = '0px 0px 30px 0px #EE56FF';
             collapse.parentElement.style.borderImageSource='linear-gradient(270deg, #B100C0 0%, #430048 100%)';
             collapse.parentElement.style.borderImageSlice='1';
             collapse.parentElement.style.borderRadius=''
-
-          } else {
-            const bsCollapse = new bootstrap.Collapse(collapse);
-            bsCollapse.hide();
-            icon.classList.remove('fa-minus');
-            icon.classList.add('fa-plus');
-           
-          }
+          })
+          collapse.addEventListener('hidden.bs.collapse', function (event) {
+            const btn = collapse.closest('.accordion-item').querySelector('.accordion-button');
+            btn.querySelector('i').classList.remove('fa-minus');
+            btn.querySelector('i').classList.add('fa-plus');
+            btn.querySelector('i').style.removeProperty('background-image');
+            collapse.parentElement.style.removeProperty('box-shadow');
+            collapse.parentElement.style.removeProperty('border-image-source');
+          })
         });
       });
     });
+
+    /* script for active bottons of nav bar*/
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+
+    /* script for navbar on scroll*/
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) { // Adjust this value based on when you want Navbar to change
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+    });
+    
 </script>
 

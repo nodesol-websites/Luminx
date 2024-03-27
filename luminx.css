@@ -2,22 +2,80 @@
 .navbar-collapse{
    flex-grow: 0 !important;
 }
+#navbar.scrolled{
+   transition: 1s;
+   border-radius: 40px;
+   width: 60%;
+   margin-top: 50px;
+   padding: 0 40px;
+   border: 5px solid rgba(121, 87, 233, 0.1);
+}
+.btn {
+   border: none;
+   outline: none;
+   padding: 10px 16px;
+   background-color: #f1f1f1;
+   cursor: pointer;
+   font-size: 18px;
+ }
+ 
+ /* Style the active class, and buttons on mouse-over */
+ .active, .btn:hover {
+   background: linear-gradient(90deg, #5177FE 0%, #B22EB5 101.7%);
+   color: white;
+ }
 .heading-section  {
   top: 38%;
+  z-index: 4;
 }
 .banner-side-img{
-   top: 7%;
+   top: 8%;
    right: 0%;
-   z-index: 3;
+   opacity: 80%;
 } 
-
+.servic-img{
+   right: 0%;
+   opacity: 60%;
+   z-index: -1;  
+}
+.servic-img ellipse{
+   animation: bg 10s infinite linear; 
+}
+.srvice-left-img1 ellipse{
+   animation: bg 10s infinite linear; 
+}
+.srvice-right-img{
+   right: -10%;
+   top: 60%;
+   opacity: 50%;
+   z-index: -1;
+}
+.srvice-right-img circle{
+   animation: bg 10s infinite linear; 
+}
+.sevice-left-img2{
+   left: 0%;
+   top: 70%;
+   z-index: -1;
+}
+.sevice-left-img2 ellipse{
+   animation: bg 10s infinite linear; 
+}
+.center-img{
+   right: 0;
+   top: 30%;
+   opacity: 50%;
+   z-index: -1;
+}
+.center-img ellipse{
+   animation: bg 10s infinite linear; 
+}
 video{
    display:block; 
    width:100%;
    height: 100%;
  }
-
- 
+  
 video{
    -moz-transform:scale(1.25);
    -webkit-transform:scale(1.25);
@@ -29,7 +87,7 @@ video{
 
 .section{
    background-image: linear-gradient(90deg,#000000 70% ,#000000 13% );
-   opacity: 95%;
+   opacity: 93%;
    position: relative;
    z-index: 1;
    overflow: hidden;
@@ -43,7 +101,7 @@ video{
    z-index: -1;
 	offset-path: path("M1692.02 884.327C1642.65 1008.58 1505.9 1084.62 1324.48 1106.97C1143.09 1129.33 917.186 1097.99 689.768 1007.65C462.351 917.299 276.53 785.061 159.933 644.323C43.3221 503.568 -3.9736 354.415 45.39 230.16C94.7536 105.905 231.511 29.8719 412.922 7.51428C594.313 -14.8408 820.221 16.4924 1047.64 106.84C1275.06 197.188 1460.88 329.425 1577.47 470.164C1694.08 610.919 1741.38 760.072 1692.02 884.327Z");
 	position: absolute;
-   opacity: 50%;
+   opacity: 80%;
 	animation: rotates 100s linear infinite;
 }
 @keyframes rotates {
@@ -55,11 +113,11 @@ video{
 .ellips-ring-img{
    top:4%;
    left: 0%;
-   width: 100%;
+   width: 91%;
 }
 .star{
    position: absolute;
-   top: 338px;
+   top: 336px;
    left:-6px;
 	offset-path: path("M1692.02 884.327C1642.65 1008.58 1505.9 1084.62 1324.48 1106.97C1143.09 1129.33 917.186 1097.99 689.768 1007.65C462.351 917.299 276.53 785.061 159.933 644.323C43.3221 503.568 -3.9736 354.415 45.39 230.16C94.7536 105.905 231.511 29.8719 412.922 7.51428C594.313 -14.8408 820.221 16.4924 1047.64 106.84C1275.06 197.188 1460.88 329.425 1577.47 470.164C1694.08 610.919 1741.38 760.072 1692.02 884.327Z");
    -webkit-animation: star 100s linear infinite, spin 1s linear infinite;
@@ -207,45 +265,57 @@ canvas {
 
 .glass:hover .border-div {
  box-shadow: 0px 0px 40px 0px #EE56FF;
+ transition: 2s;
  border-radius: 30px 30px 30px 30px;
 }
 .glass:hover .inner-div{
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass2:hover .border-div{
    box-shadow: 0px 0px 40px 0px #EE56FF;
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass2:hover .inner-div{
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass3:hover .border-div{
    box-shadow: 0px 0px 40px 0px #9742e6;
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass3:hover .inner-div{
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass4:hover .border-div{
    box-shadow: 0px 0px 40px 0px #9742e6;
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass4:hover .inner-div{
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass5:hover .border-div{
    box-shadow: 0px 0px 40px 0px #2e5de0;
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass5:hover .inner-div{
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass6:hover .border-div{
    box-shadow: 0px 0px 40px 0px #2e5de0;
+   transition: 2s;
    border-radius: 30px 30px 30px 30px;
 }
 .glass6:hover .inner-div{
-   border-radius: 30px 30px 30px 30px;
+  transition: 2s;
+  border-radius: 30px 30px 30px 30px;
 }
 .border-div:hover .coaching path{
    fill: #D143DD;
@@ -415,7 +485,7 @@ BACKGROUND COLORS
 .bg-rectangle{
    background-image: url("images/Rectangle.png");
 }
-.background{
+.tab{
    background: transparent;
    padding: 0.5rem 1rem;
    background: radial-gradient(circle, #3925aa 0%, rgba(21,12,58,1) 97%);
@@ -686,6 +756,9 @@ BACKGROUND COLORS
 .font-weight-700{
    font-weight: 700;
 }
+.font-weight-800{
+   font-weight: 800;
+}
 
 /* font sizes */
 .font-size-12{
@@ -753,6 +826,9 @@ line heights
 .line-height-20{
    line-height: 20px;
 }
+.line-height-22{
+   line-height: 22px;
+}
 .line-height-28{
    line-height: 28px;
 }
@@ -775,6 +851,10 @@ line heights
    .luminx{
       font-size: 20px;
    }
+   #navbar.scrolled{
+      width: 88%;
+      padding: 0px 20px;
+   }
    .navbar-toggler-icon{
       width: 30%;
    }
@@ -782,7 +862,7 @@ line heights
       font-size: 20px;
       line-height: 25px;
    }
-   .baner-text{
+   .para{
       font-size: 16px;
       line-height: 20px;
    }
@@ -801,11 +881,8 @@ line heights
       height: 250px;
       transform:scale(1.5);
    }
-   .addressing{
-      font-size: 14px;
-   }
    .face-icon{
-      left: 40%;
+      left: 43%;
    }
    .card-heading{
       font-size: 20px;
@@ -823,10 +900,10 @@ line heights
 }
 @media (min-width:576px) and (max-width:767px) {
    .heading {
-      font-size: 25px;
+      font-size: 30px;
    }
-   .baner-text{
-      font-size: 15px;
+   .para{
+      font-size: 20px;
       line-height: 25px;
    }
    .demo-btn{
@@ -841,12 +918,8 @@ line heights
       height: 422px;
       transform:scale(1.10);
    }
-   .addressing{
-      font-size: 12px;
-   }
-   .ready{
-      font-size: 25px;
-      line-height: 50px
+   .face-icon{
+      left: 46%;
    }
    .card-heading{
       font-size: 32px;
@@ -863,15 +936,15 @@ line heights
    }
    .ellips-img{
       offset-path: path("M459.896 244.027C446.338 278.155 408.742 299.109 358.709 305.276C308.697 311.439 246.383 302.802 183.637 277.874C120.89 252.946 69.6373 216.466 37.4896 177.662C5.32839 138.842 -7.63705 97.8007 5.92107 63.6731C19.4792 29.5455 57.0744 8.5906 107.108 2.42436C157.12 -3.7393 219.434 4.89846 282.18 29.8262C344.927 54.754 396.18 91.2336 428.327 130.038C460.488 168.858 473.454 209.899 459.896 244.027Z");
-     }
+   }
    
 }
 @media (min-width:768px) and (max-width:991px) {
    .heading {
-      font-size: 27px;
+      font-size: 30px;
    }
-   .baner-text{
-      font-size: 13px;
+   .para{
+      font-size: 20px;
       line-height: 25px;
    }
    .demo-btn{
@@ -886,10 +959,6 @@ line heights
       height: 422px;
       transform:scale(1.10);
    }
-   .addressing{
-      font-size: 14px;
-   }
-
    .curv-img{
       margin-top: -38px;
       left: 187px;
@@ -909,10 +978,10 @@ line heights
 }
 @media (min-width:992px) and (max-width:1199px) {
    .heading {
-      font-size: 35px;
+      font-size: 40px;
    }
-   .baner-text{
-      font-size: 16px;
+   .para{
+      font-size: 23px;
    }
    video{
       transform:scale(1.20);
@@ -924,9 +993,6 @@ line heights
    .view-btn{
       font-size: 16px;
       margin: 0px;
-   }
-   .addressing{
-      font-size: 20px;
    }
    .curv-img{
       margin-top: -55px;
@@ -949,11 +1015,14 @@ line heights
    .heading {
       font-size: 47px;
    }
-   .baner-text{
-      font-size: 22px;
+   .para{
+      font-size: 25px;
    }
    video{
       transform:scale(1.22);
+   }
+   .face-icon{
+      left: 41%;
    }
    .demo-btn{
       font-size: 16px;
@@ -962,9 +1031,6 @@ line heights
    .view-btn{
       font-size: 16px;
       margin: 0px;
-   }
-   .addressing{
-      font-size: 20px;
    }
    .card-heading{
       font-size: 32px;
